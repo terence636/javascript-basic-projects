@@ -40,3 +40,5 @@ function IncFunc () {
     if(ctr === 0)
         counterDigit.style.color = 'black';
 }
+
+console.log("to test out git");

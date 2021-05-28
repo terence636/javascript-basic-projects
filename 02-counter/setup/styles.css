@@ -75,6 +75,9 @@ body {
 }
 ul {
   list-style-type: none;
+  justify-content:center;
+  display: flex;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -90,10 +93,10 @@ h4 {
   font-family: var(--ff-primary);
 }
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h3 {
   font-size: 1.25rem;
@@ -104,6 +107,24 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+}
+
+#counter_disp {
+  background-color: red;
+  text-align: center;
+}
+#container {
+  
+}
+
+.counter_digit {
+  font-size: 6rem;
+  font-weight: bold;
+}
+#res_btn1 {
+  margin: 0 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius:10%
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -148,7 +169,7 @@ p {
 main {
   min-height: 100vh;
   display: grid;
-  place-items: center;
+  place-items1: center;
 }
 
 /*
@@ -157,7 +178,7 @@ Counter
 ===============
 */
 
-main {
+main1 {
   min-height: 100vh;
   display: grid;
   place-items: center;
